@@ -38,7 +38,7 @@ def guessgame():
       except:
           print("Enter a valid number")
           continue
-    if ask.lower()=="exit" or ask.lower()=="no":
+    elif ask.lower()=="exit" or ask.lower()=="no":
           break
     else :
       print("Please enter a vaalid answer")        
