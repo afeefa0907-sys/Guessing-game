@@ -30,6 +30,7 @@ def guessgame():
                   print("Try a bigger number")
                 if choise==num :
                   print("You guessed it right"+'\n' , "CONGRATULATIONS ! YOU WON") 
+                  print(f"You guessed the number in {k} attempts")
                   break
             except:
                 print("Invalid Input.Please Enter a number.")
