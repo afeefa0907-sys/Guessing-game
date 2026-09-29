@@ -6,12 +6,10 @@ Welcome to my Python mini-games project! This repository contains two beginner-f
 
 ### 1. Custom List Number Guessing Game
 An upgraded guessing game where the computer randomly selects a secret number from a specific list of options. 
-* **Key Features:** Input validation (prevents crashing on text inputs), boundary checks (ensures your guess is actually in the list), and smart high/low hints to guide your next guess.
+* **Key Features:** Input validation (prevents crashing on text inputs), and smart high/low hints to guide your next guess.
 
-### 2. Word Counter Challenge Game
-A fast-paced typing game where you compete against the clock to hit an exact word count target.
-* **Key Features:** Live timer tracking using Python's `time` module, word parsing via whitespace splitting, and automated scoring based on accuracy and speed limits.
-
+### 2. Word and Lines and Character Counter
+Counts the words and line and characters of the given file or text
 ---
 
 ## 🛠️ Prerequisites
